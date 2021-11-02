@@ -1,0 +1,29 @@
+body{
+    background-image: url(images.jpg);
+    background-repeat:no-repeat ; 
+    background-size: 100%;
+    text-align: center;
+
+}
+a{
+    color: white;
+}
+h1{
+    color: white;
+}
+.links{
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 0px;
+    border-bottom: 2px solid white;
+    width: 100px;
+    text-align:center ;
+}
